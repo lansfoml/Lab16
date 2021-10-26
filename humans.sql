@@ -17,3 +17,4 @@ CREATE TABLE followers (
 );
 
 DROP TABLE IF EXISTS memory;
+
