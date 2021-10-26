@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS humans;
 
-CREATE TABLE memory (
+CREATE TABLE humans (
   id SERIAL PRIMARY KEY,
   username VARCHAR(255),
   screenname VARCHAR(255)
@@ -9,7 +9,7 @@ CREATE TABLE memory (
 
 DROP TABLE IF EXISTS followers;
 
-CREATE TABLE memory (
+CREATE TABLE followers (
   id_followee INT,
   id_follower INT
   
