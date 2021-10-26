@@ -1,0 +1,3 @@
+curl --header 'Content-Type: application/json' \
+  --data '{"username": "testuser","screenname": "Test User"}' \
+  http://localhost:5001/humans
